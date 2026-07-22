@@ -5,7 +5,7 @@ from openai import OpenAI
 # PAGE CONFIG
 # -------------------------------------------------
 st.set_page_config(
-    page_title="Bhilwara Placement & Career Assistant",
+    page_title="Anurag University Placement & Career Assistant",
     page_icon="🎓",
     layout="wide"
 )
