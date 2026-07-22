@@ -23,7 +23,7 @@ except Exception:
 # -------------------------------------------------
 # TITLE
 # -------------------------------------------------
-st.title("🎓 Bhilwara Placement & Career Assistant")
+st.title("🎓 Anurag University Placement & Career Assistant")
 st.write(
     "Ask questions about placements, internships, resumes, coding, interviews, government jobs, and career guidance."
 )
