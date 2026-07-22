@@ -6,7 +6,7 @@ import os
 # ----------------------------
 # OpenAI API Key
 # ----------------------------
-api_key = st.secrets.get("OPENAI_API_KEY")
+api_key = st.secrets.get("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")
 
 if not api_key:
     st.error("❌ OPENAI_API_KEY not found.")
