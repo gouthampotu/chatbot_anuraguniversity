@@ -48,7 +48,7 @@ Help students with:
 - Higher Studies
 
 Use simple English.
-If needed, use Hinglish.
+If needed, use Tenglish.
 Give practical advice.
 """
 }
