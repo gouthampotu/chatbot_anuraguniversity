@@ -8,7 +8,7 @@ import os
 # -------------------------------------------------------
 
 st.set_page_config(
-    page_title="Bhilwara Career Assistant",
+    page_title="Anurag University Career Assistant",
     page_icon="🎓",
     layout="wide"
 )
@@ -46,7 +46,7 @@ CHAT_FILE = "chat_history.json"
 SYSTEM_PROMPT = {
     "role": "system",
     "content": """
-You are Bhilwara Placement & Career Assistant.
+You are Anurag University Placement & Career Assistant.
 
 Help students with:
 
@@ -63,7 +63,7 @@ Help students with:
 • Internships
 
 Always answer in simple English.
-If suitable, you may also use Hinglish.
+If suitable, you may also use Tenglish.
 Give practical and realistic advice.
 """
 }
@@ -114,7 +114,7 @@ if "messages" not in st.session_state:
 
 with st.sidebar:
 
-    st.title("🎓 Bhilwara Career Assistant")
+    st.title("🎓 Anurag University Career Assistant")
 
     st.divider()
 
@@ -153,7 +153,7 @@ with st.sidebar:
 # MAIN PAGE
 # -------------------------------------------------------
 
-st.title("🎓 Bhilwara Placement & Career Assistant")
+st.title("🎓 Anurag University Placement & Career Assistant")
 
 st.write(
     "Ask anything about placements, internships, resume, coding, interviews, government jobs, or career guidance."
