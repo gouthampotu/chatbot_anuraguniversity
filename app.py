@@ -18,12 +18,12 @@ client = OpenAI(api_key=api_key)
 # Streamlit Config
 # ----------------------------
 st.set_page_config(
-    page_title="Bhilwara Career Assistant",
+    page_title="Anurag University Career Assistant",
     page_icon="🎓",
     layout="centered"
 )
 
-st.title("🎓 Bhilwara Placement & Career Assistant")
+st.title("🎓 Anurag University Placement & Career Assistant")
 st.write("Your personalised career assistant.")
 
 # ----------------------------
@@ -34,9 +34,12 @@ CHAT_FILE = "chat_history.json"
 SYSTEM_PROMPT = {
     "role": "system",
     "content": (
-        "You are a placement and career assistant for students in Bhilwara. "
-        "Guide them regarding IT jobs, government jobs, internships, resume building, "
-        "coding, interview preparation, communication skills and career guidance."
+                "You are a placement and career assistant for students in Anurag University. "
+                "Guide them for IT jobs, government jobs, internships, resume building, "
+                "communication skills, coding basics, interview preparation, "
+                "and practical career paths suitable for students from small towns, degree colleges, "
+                "and rural backgrounds. Use simple English and optional Tenglish. "
+                "Give realistic, actionable advice for Bhilwara students."
     )
 }
 
